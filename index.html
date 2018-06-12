@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TWITTER</title>
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="arrow">
+    <!-- Inicio de primer arrow -->
+    <div class="col-4">
+      <textarea placeholder="Escribe tu comentario..." maxlength="170" name="" id="comments" cols="70" rows="10"></textarea>
+      <button id="tweet">TWITTEAR</button>
+    </div>
+  </div>
+  <!-- cierre de primer arrow -->
+  <div class="arrow">
+    <div class="col-6">
+      <textarea onkeypress="tweetGhost" placeholder="Tu mensaje aparecerá aquí" maxlength="140" name="" id="commentsResult" cols="100"
+        rows="10" readonly></textarea>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

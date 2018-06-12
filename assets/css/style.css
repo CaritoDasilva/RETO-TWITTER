@@ -1,0 +1,15 @@
+body {
+  background-image: url(imagenes/Twitter\ Header\ Backgrounds\ v3\ -\ PLR.jpg);
+}
+
+.col-4 {
+  float: right;
+  padding: 100px;
+  margin-right: 200px;
+}
+
+.col-6 {
+  padding: 100px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
